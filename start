@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "<h1>$MESSAGE</h1>" > /var/www/html/index.nginx-debian.html
+nginx -g "daemon off;"
